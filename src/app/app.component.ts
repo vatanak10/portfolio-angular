@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'portfolio-angular';
 
   menu = [
     {
@@ -41,11 +40,23 @@ export class AppComponent {
   }
 
   toggleActiveBtn(e: any) {
+    // remove active class from all buttons
     const controls = document.querySelectorAll('.control');
     controls.forEach((control) => {
       control.classList.remove('active-btn');
     });
 
+    // add active class to the clicked button
     e.target.classList.add('active-btn');
+
+    // remove active class from all sections
+    const sections = document.querySelectorAll('.section');
+    sections.forEach((section) => {
+      section.classList.remove('active');
+    });
+
+    // add active class to the clicked section
+    const section = document.getElementById(e.target.dataset.id);
+    section?.classList.add('active');
   }
 }
