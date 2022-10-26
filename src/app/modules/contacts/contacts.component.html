@@ -12,57 +12,14 @@
         <h4>Contact me here</h4>
         <!-- <p>This is Description</p> -->
         <div class="contact-info">
-          <div class="contact-item">
+          <div class="contact-item" *ngFor="let item of info">
             <div class="icon">
-              <i class="fas fa-envelope"></i>
-              <span>Email:</span>
+              <i [class]="item.icon"></i>
+              <span>{{ item.title }}:</span>
             </div>
             <p>
-              <span>koeurnsereyvatanak@gmail.com</span>
+              <span>{{ item.value }}</span>
             </p>
-          </div>
-          <div class="contact-item">
-            <div class="icon">
-              <i class="fas fa-mobile-alt"></i>
-              <span>Mobile Number:</span>
-            </div>
-            <p>
-              <span>+855 98 915 099</span>
-            </p>
-          </div>
-          <div class="contact-item">
-            <div class="icon">
-              <i class="fas fa-user-graduate"></i>
-              <span>Bachelor:</span>
-            </div>
-            <p>
-              <span>Software Engineering</span>
-            </p>
-          </div>
-          <div class="contact-item">
-            <div class="icon">
-              <i class="fas fa-globe-africa"></i>
-              <span>Languages:</span>
-            </div>
-            <p>
-              <span>Khmer, English, Japanese</span>
-            </p>
-          </div>
-          <div class="contact-item">
-            <div class="icon">
-              <i class="fas fa-birthday-cake"></i>
-              <span>Date of Birth</span>
-            </div>
-            <p>
-              <span>October 04, 2000</span>
-            </p>
-          </div>
-          <div class="contact-item">
-            <div class="icon">
-              <i class="fas fa-map-marker-alt"></i>
-              Location:
-            </div>
-            <p>Phnom Penh, Cambodia</p>
           </div>
         </div>
 
@@ -70,36 +27,13 @@
         <div class="contact-icons">
           <div class="contact-icon">
             <a
-              href="https://www.linkedin.com/in/vatanak10/"
+              *ngFor="let item of socialIcons"
+              [href]="item.link"
               target="_blank"
-              data-tooltip="LinkedIn"
+              [attr.data-tooltip]="item.title"
               data-tooltip-conf="bottom secondary"
             >
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a
-              href="https://github.com/vatanak10"
-              target="_blank"
-              data-tooltip="GitHub"
-              data-tooltip-conf="bottom secondary"
-            >
-              <i class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://twitter.com/vatanak100"
-              target="_blank"
-              data-tooltip="Twitter"
-              data-tooltip-conf="bottom secondary"
-            >
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a
-              href="https://www.facebook.com/vatanak100/"
-              target="_blank"
-              data-tooltip="Facebook"
-              data-tooltip-conf="bottom secondary"
-            >
-              <i class="fab fa-facebook-f"></i>
+              <i [class]="item.icon"></i>
             </a>
           </div>
         </div>
