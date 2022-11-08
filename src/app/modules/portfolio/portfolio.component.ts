@@ -15,7 +15,7 @@ export class PortfolioComponent implements OnInit {
   projects = [
     {
       title: 'bongthom.com',
-      imgLink: '../../../assets/images/png/bongthom.png',
+      imgLink: 'assets/images/png/bongthom.png',
       altImg: 'bongthom.com homepage',
       icons: [
         {
@@ -27,7 +27,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       title: 'iBOOK',
-      imgLink: '../../../assets/images/portfolio/ibook.webp',
+      imgLink: 'assets/images/portfolio/ibook.webp',
       altImg: 'ibook preview',
       icons: [
         {
@@ -44,7 +44,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       title: 'fixh.me',
-      imgLink: '../../../assets/images/portfolio/fixhme.webp',
+      imgLink: 'assets/images/portfolio/fixhme.webp',
       altImg: 'fixh.me homepage preview',
       icons: [
         {
@@ -56,7 +56,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       title: 'DOODHK.COM',
-      imgLink: '../../../assets/images/portfolio/doodhk.webp',
+      imgLink: 'assets/images/portfolio/doodhk.webp',
       altImg: 'doodhk homepage preview',
       icons: [
         {
@@ -68,7 +68,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       title: 'HK.FACKELMANN.ASIA',
-      imgLink: '../../../assets/images/portfolio/fackelmann.webp',
+      imgLink: 'assets/images/portfolio/fackelmann.webp',
       altImg: 'fackelmann homepage preview',
       icons: [
         {
@@ -80,7 +80,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       title: 'BIGBITE.HK',
-      imgLink: '../../../assets/images/portfolio/bigbite.webp',
+      imgLink: 'assets/images/portfolio/bigbite.webp',
       altImg: 'bigbite.hk homepage preview',
       icons: [
         {
@@ -92,7 +92,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       title: 'erlicht.com',
-      imgLink: '../../../assets/images/portfolio/erlicht.webp',
+      imgLink: 'assets/images/portfolio/erlicht.webp',
       altImg: 'erlicht.com homepage preview',
       icons: [
         {
@@ -104,7 +104,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       title: 'bainmariehk.com',
-      imgLink: '../../../assets/images/portfolio/bainmarie.webp',
+      imgLink: 'assets/images/portfolio/bainmarie.webp',
       altImg: 'bainmariehk homepage preview',
       icons: [
         {
@@ -116,7 +116,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       title: 'KIT Landing Page',
-      imgLink: '../../../assets/images/portfolio/kit.webp',
+      imgLink: 'assets/images/portfolio/kit.webp',
       altImg: 'KIT Landing Page preview',
       icons: [
         {
@@ -133,7 +133,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       title: 'dood.fr',
-      imgLink: '../../../assets/images/png/doodfr.png',
+      imgLink: 'assets/images/png/doodfr.png',
       altImg: 'dood.fr homepage preview',
       icons: [
         {
@@ -145,7 +145,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       title: 'mkwong.com.hk',
-      imgLink: '../../../assets/images/png/mkwong.png',
+      imgLink: 'assets/images/png/mkwong.png',
       altImg: 'mkwong.com.hk homepage preview',
       icons: [
         {
@@ -157,7 +157,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       title: 'Vatanak Portfolio Page',
-      imgLink: '../../../assets/images/portfolio/portfolio.webp',
+      imgLink: 'assets/images/portfolio/portfolio.webp',
       altImg: 'Vatanak Portfolio Page',
       icons: [
         {
