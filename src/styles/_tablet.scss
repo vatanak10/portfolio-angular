@@ -1,0 +1,13 @@
+@media screen and (max-width: 1024px) {
+  // Portfolio
+    .portfolios {
+      grid-template-columns: repeat(2, 1fr);
+      padding-bottom: 6rem;
+
+      .portfolio-item {
+        img {
+          height: 220px;
+        }
+      }
+    }
+}
