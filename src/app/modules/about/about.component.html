@@ -135,114 +135,18 @@
   <div class="about-timeline">
     <h4 class="stat-title">My Timeline</h4>
     <div class="timeline">
-      <div class="timeline-item">
+      <div class="timeline-item" *ngFor="let work of timeline">
         <div class="timeline-icon">
           <i class="fas fa-briefcase"></i>
         </div>
-        <p class="timeline-duration">June 2022 - Present</p>
+        <p class="timeline-duration">{{ work.date }}</p>
         <h5>
-          Web Application Developer
-          <span>- Bongthom.com</span>
+          {{ work.position }}
+          <span>- {{ work.company }}</span>
         </h5>
         <ul>
-          <li>
-            Present and defend work and key milestone deliverables to the
-            development team, management, and stakeholders
-          </li>
-          <li>
-            Web Application Development. Build reusable code and libraries for
-            future use.
-          </li>
-          <li>Optimize application for maximum speed and scalability</li>
-        </ul>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fas fa-briefcase"></i>
-        </div>
-        <p class="timeline-duration">October 2021 - June 2022</p>
-        <h5>Junior Web Developer <span>- DOOD LIMITED</span></h5>
-        <ul>
-          <li>
-            Provided front-end website development using WordPress, Hubspot, and
-            other editing software.
-          </li>
-          <li>
-            Drafted customized layout and wireframes based on predetermined
-            parameters and expectations.
-          </li>
-          <li>Customized re-design with HTML, CSS, PHP</li>
-        </ul>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fas fa-briefcase"></i>
-        </div>
-        <p class="timeline-duration">December 2021 - April 2022</p>
-        <h5>
-          Web Application Developer
-          <span>- KIT</span>
-        </h5>
-        <ul>
-          <li>
-            Identify the Problems and Propose the solution to the problem.
-          </li>
-          <li>
-            Decide on Technology Stack required to build the Web Application.
-          </li>
-          <li>
-            Works on Development and Maintenance of Applications and User
-            Interface.
-          </li>
-        </ul>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fas fa-briefcase"></i>
-        </div>
-        <p class="timeline-duration">July 2021 - January 2022</p>
-        <h5>Website Maintainer <span>- fixh.me</span></h5>
-        <ul>
-          <li>
-            Collaborated with stakeholders during development processes to
-            confirm creative proposals and design best practices.
-          </li>
-          <li>
-            Developed designs to meet specific requirements such as
-            quick-loading sites with particular layouts.
-          </li>
-          <li>
-            Conceived and built optimized landing pages in Vuetify for
-            cross-browser compatibility.
-          </li>
-          <li>
-            Designed and updated layouts to meet usability and performance
-            requirements.
-          </li>
-        </ul>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fas fa-briefcase"></i>
-        </div>
-        <p class="timeline-duration">May 2020 - Januray 2021</p>
-        <h5>Web Development Manager <span>- megnit</span></h5>
-        <ul>
-          <li>
-            Designed, implemented, and monitored web pages and sites for
-            continuous improvement.
-          </li>
-          <li>
-            Created eye-catching and functional digital design concepts across
-            various platforms.
-          </li>
-          <li>
-            Represented web team at meetings with executives and discussed
-            project goals and milestones.
-          </li>
-          <li>
-            Researched new technologies, software packages, and hardware
-            products for use in website projects.
+          <li *ngFor="let item of work.duties">
+            {{ item }}
           </li>
         </ul>
       </div>
