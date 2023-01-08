@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+  // Work Experience
+  .work_experience {
+    .work_container {
+      .work_item {
+        display: flex;
+        justify-content: left;
+        .work_center {
+          grid-column-start: 1;
+        }
+
+        .work_detail {
+          order: 9999;
+          text-align: start;
+          margin-left: 0 !important;
+          padding-left: 1rem;
+          padding-bottom: 1rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+@media screen and (max-width: 1024px) {
+  // Work Experience
+  .work_experience{
+    .work_container {
+      .work_item {
+        .work_detail {
+          margin-right: -1rem;
+        }
+
+        &:nth-child(even) {
+          .work_detail {
+            margin-left: -1rem;
+          }
+        }
+      }
+    }
+  }
+
+  // Portfolio
+  .portfolios {
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 6rem;
+
+    .portfolio-item {
+      img {
+        height: 220px;
+      }
+    }
+  }
+}
