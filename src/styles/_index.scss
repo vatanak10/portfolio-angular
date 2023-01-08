@@ -401,6 +401,101 @@ section {
   }
 }
 
+// Work Experience
+.work_experience {
+  .work_container {
+    overflow: hidden;
+    .work_item {
+      display: grid;
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+
+      .work_center{
+        grid-column: span 2 / span 2;
+        grid-column-start: 6;
+        justify-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .work_icon {
+        background-color: var(--color-secondary);
+        width: 50px;
+        height: 50px;
+        border-radius: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        i {
+          color: var(--color-grey-1);
+        }
+      }
+
+      .work_border {
+        flex-grow: 1;
+        z-index: -1;
+        width: 2px;
+        background-color: var(--color-grey-3);
+      }
+
+      .work_detail {
+        grid-column: span 5 / span 5;
+        justify-self: end;
+        order: -9999;
+        text-align: end;
+        margin-right: -2rem;
+        margin-left: 0;
+
+        .work_duration {
+          padding: 0.2rem 0.6rem;
+          background-color: var(--color-grey-4);
+          border-radius: 5px;
+          display: inline-block;
+          font-size: 0.8rem;
+          text-transform: uppercase;
+          font-weight: 500;
+        }
+
+        h5 {
+          padding: 1rem 0;
+          text-transform: uppercase;
+          font-size: 1.3rem;
+          font-weight: 600;
+
+          span {
+            color: var(--color-grey-2);
+            font-weight: 500;
+            font-size: 1.2rem;
+          }
+        }
+
+        ul {
+          line-height: 1.5rem;
+
+          li {
+            font-size: 1rem;
+            margin-right: 0;
+            margin-bottom: 10px;
+            display: list-item;
+          }
+        }
+      }
+
+      &:nth-child(even) {
+        .work_detail {
+          justify-self: start;
+          order: 9999;
+          text-align: start;
+          margin-right: 0;
+          margin-left: -2rem;
+        }
+        
+      }
+    }
+  }
+}
+
 // About Timeline
 .about-timeline {
   .timeline {

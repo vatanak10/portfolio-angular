@@ -131,8 +131,34 @@
     </div>
   </div>
 
+  <!-- Work Experience -->
+  <div class="work_experience">
+    <h4 class="stat-title">Work Experience</h4>
+    <div class="work_container">
+      <div class="work_item" *ngFor="let work of timeline">
+        <div class="work_center">
+          <div class="work_icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <div class="work_border"></div>
+        </div>
+
+        <div class="work_detail">
+          <p class="work_duration">{{ work.date }}</p>
+          <h5>
+            {{ work.position }}
+            <span>- {{ work.company }}</span>
+          </h5>
+          <ul>
+            <li *ngFor="let item of work.duties">{{ item }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Timeline -->
-  <div class="about-timeline">
+  <!-- <div class="about-timeline">
     <h4 class="stat-title">My Timeline</h4>
     <div class="timeline">
       <div class="timeline-item" *ngFor="let work of timeline">
@@ -151,5 +177,5 @@
         </ul>
       </div>
     </div>
-  </div>
+  </div> -->
 </section>
