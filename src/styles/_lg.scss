@@ -1,4 +1,11 @@
 @media screen and (max-width: 1024px) {
+  // about
+  .about-container {
+    .right-about {
+      grid-template-columns: 1fr;
+    }
+  }
+  
   // Work Experience
   .work_experience{
     .work_container {

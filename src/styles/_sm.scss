@@ -53,7 +53,6 @@
         grid-template-columns: 1fr;
 
         .right-about {
-            grid-template-columns: 1fr;
             padding-top: 2.5rem;
         }
 
@@ -104,7 +103,6 @@
 
     // Contacts
     .contact-content-container {
-        flex-direction: column;
         padding-top: 2rem;
         padding-bottom: 6rem;
         .left-contact {
@@ -127,12 +125,8 @@
                 //     text-align: end;
                 // }
             }
-            .contact-icon {
-                justify-content: center;
-            }
         }
         .right-contact {
-            margin-left: 0;
             margin-top: 1.5rem;
             .i-c-2 {
                 flex-direction: column;

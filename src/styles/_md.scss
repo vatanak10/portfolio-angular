@@ -19,4 +19,29 @@
       }
     }
   }
+
+  // Portfolio
+  .portfolios {
+
+    .portfolio-item {
+      img {
+        height: 180px;
+      }
+    }
+  }
+
+  // Contacts
+    .contact-content-container {
+      flex-direction: column;
+
+      .left-contact {
+        .contact-icon {
+            justify-content: center;
+          }
+      }
+
+      .right-contact {
+        margin-left: 0;
+      }
+    }
 }
