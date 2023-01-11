@@ -25,7 +25,7 @@
 
 .light-mode {
   --color-primary: #fff;
-  --color-secondary: #0fa3b1;
+  --color-secondary: #f45b69; //#0fa3b1;
   --color-background: #f8f8f8;
   --color-white: #454e56;
   --color-black: #000;
@@ -428,7 +428,7 @@ section {
         justify-content: center;
 
         i {
-          color: var(--color-grey-1);
+          color: white; //var(--color-grey-1);
         }
       }
 
@@ -914,6 +914,7 @@ section {
       transform: translate(-50%, -50%);
       font-weight: 800;
       font-size: 6.3rem;
+      white-space: nowrap;
     }
   }
 }

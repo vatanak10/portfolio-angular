@@ -3,39 +3,37 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-portfolio',
   templateUrl: './portfolio.component.html',
-  styleUrls: ['./portfolio.component.scss']
+  styleUrls: ['./portfolio.component.scss'],
 })
 export class PortfolioComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   projects = [
     {
       title: 'wetype.store',
-      imgLink: '../../../assets/images/png/wetype.png',
+      imgLink: '../../../assets/images/portfolio/wetype.webp',
       altImg: 'wetype.store banner',
       icons: [
         {
           icon: 'fa fa-link',
           link: 'https://wetype.apps.hunvikran.com',
-          tooltip: 'Visit Website'
-        }
-      ]
+          tooltip: 'Visit Website',
+        },
+      ],
     },
     {
       title: 'bongthom.com',
-      imgLink: '../../../assets/images/png/bongthom.png',
+      imgLink: '../../../assets/images/portfolio/bongthom.webp',
       altImg: 'bongthom.com homepage',
       icons: [
         {
           icon: 'fa fa-link',
           link: 'https://bongthom.com',
-          tooltip: 'Visit Website'
-        }
-      ]
+          tooltip: 'Visit Website',
+        },
+      ],
     },
     {
       title: 'iBOOK',
@@ -45,14 +43,14 @@ export class PortfolioComponent implements OnInit {
         {
           icon: 'fab fa-google-play',
           link: 'https://play.google.com/store/apps/details?id=com.bookmanagement.ibook',
-          tooltip: 'Play Store'
+          tooltip: 'Play Store',
         },
         {
           icon: 'fab fa-github',
           link: 'https://github.com/incubation-center/Flutter-app---Group8',
-          tooltip: 'GitHub'
+          tooltip: 'GitHub',
         },
-      ]
+      ],
     },
     {
       title: 'fixh.me',
@@ -62,9 +60,9 @@ export class PortfolioComponent implements OnInit {
         {
           icon: 'fa fa-link',
           link: 'https://fixh.me/',
-          tooltip: 'Visit Website'
+          tooltip: 'Visit Website',
         },
-      ]
+      ],
     },
     {
       title: 'DOODHK.COM',
@@ -74,9 +72,9 @@ export class PortfolioComponent implements OnInit {
         {
           icon: 'fa fa-link',
           link: 'https://doodhk.com/',
-          tooltip: 'Visit Website'
+          tooltip: 'Visit Website',
         },
-      ]
+      ],
     },
     {
       title: 'HK.FACKELMANN.ASIA',
@@ -86,9 +84,9 @@ export class PortfolioComponent implements OnInit {
         {
           icon: 'fa fa-link',
           link: 'https://hk.fackelmann.asia/',
-          tooltip: 'Visit Website'
+          tooltip: 'Visit Website',
         },
-      ]
+      ],
     },
     {
       title: 'BIGBITE.HK',
@@ -98,9 +96,9 @@ export class PortfolioComponent implements OnInit {
         {
           icon: 'fa fa-link',
           link: 'https://bigbite.hk/',
-          tooltip: 'Visit Website'
+          tooltip: 'Visit Website',
         },
-      ]
+      ],
     },
     {
       title: 'erlicht.com',
@@ -110,9 +108,9 @@ export class PortfolioComponent implements OnInit {
         {
           icon: 'fa fa-link',
           link: 'https://erlicht.com/',
-          tooltip: 'Visit Website'
+          tooltip: 'Visit Website',
         },
-      ]
+      ],
     },
     {
       title: 'bainmariehk.com',
@@ -122,9 +120,9 @@ export class PortfolioComponent implements OnInit {
         {
           icon: 'fa fa-link',
           link: 'https://bainmariehk.com/',
-          tooltip: 'Visit Website'
+          tooltip: 'Visit Website',
         },
-      ]
+      ],
     },
     {
       title: 'KIT Landing Page',
@@ -134,38 +132,38 @@ export class PortfolioComponent implements OnInit {
         {
           icon: 'fa fa-link',
           link: 'https://neuporng.github.io/PrototypeLandingPage/',
-          tooltip: 'Preview'
+          tooltip: 'Preview',
         },
         {
           icon: 'fab fa-github',
           link: 'https://github.com/NeupOrng/PrototypeLandingPage',
-          tooltip: 'GitHub'
+          tooltip: 'GitHub',
         },
-      ]
+      ],
     },
     {
       title: 'dood.fr',
-      imgLink: '../../../assets/images/png/doodfr.png',
+      imgLink: '../../../assets/images/portfolio/doodfr.webp',
       altImg: 'dood.fr homepage preview',
       icons: [
         {
           icon: 'fa fa-link',
           link: 'https://dood.fr/',
-          tooltip: 'Visit Website'
+          tooltip: 'Visit Website',
         },
-      ]
+      ],
     },
     {
       title: 'mkwong.com.hk',
-      imgLink: '../../../assets/images/png/mkwong.png',
+      imgLink: '../../../assets/images/portfolio/mkwong.webp',
       altImg: 'mkwong.com.hk homepage preview',
       icons: [
         {
           icon: 'fa fa-link',
           link: 'https://mkwong.com.hk/',
-          tooltip: 'Visit Website'
+          tooltip: 'Visit Website',
         },
-      ]
+      ],
     },
     {
       title: 'Vatanak Portfolio Page',
@@ -175,14 +173,14 @@ export class PortfolioComponent implements OnInit {
         {
           icon: 'fa fa-link',
           link: 'https://vatanak10.github.io/portfolio',
-          tooltip: 'Preview Page'
+          tooltip: 'Preview Page',
         },
         {
           icon: 'fab fa-github',
           link: 'https://github.com/vatanak10/portfolio',
-          tooltip: 'GitHub'
+          tooltip: 'GitHub',
         },
-      ]
+      ],
     },
   ];
 }
