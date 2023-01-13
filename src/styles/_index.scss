@@ -18,6 +18,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
+  --color-portfolio-icon: #fff;
   --br-sm-2: 14px;
   --transition: all 0.4s ease-in-out;
   --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.3);
@@ -36,6 +37,7 @@
   --color-grey-4: #dbe1e8;
   --color-grey-5: #f8f8f8;
   --color-grey-6: #12181b;
+  --color-portfolio-icon: #0b486b;
   --br-sm-2: 14px;
   --transition: all 0.4s ease-in-out;
   --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.3);
@@ -73,6 +75,7 @@ section {
 
 .section {
   transform: translateY(-100%) scale(0);
+  opacity: 0;
   transition: all 0.4s ease-in-out;
   background-color: var(--color-background);
 }
@@ -104,15 +107,18 @@ section {
 
 .active {
   display: block;
-  animation: scaleAnim 1s ease-in-out;
+  opacity: 1;
+  animation: scaleAnim 0.5s ease;
 
   @keyframes scaleAnim {
     0% {
-      transform: translateY(-100%) scaleY(0);
+      // transform: translateY(-100%) scaleY(0);
+      opacity: 0;
     }
 
     100% {
-      transform: translateY(0) scaleY(1);
+      // transform: translateY(0) scaleY(1);
+      opacity: 1;
     }
   }
 }
@@ -633,7 +639,7 @@ section {
           }
 
           &:hover {
-            background-color: var(--color-white);
+            background-color: var(--color-portfolio-icon);
 
             i {
               color: var(--color-primary);
