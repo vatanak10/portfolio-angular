@@ -1,0 +1,127 @@
+{
+  "configVersion": 1,
+  "timestamp": 1673596253766,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/index.html",
+        "/main.895ef67bb73d042d.js",
+        "/manifest.webmanifest",
+        "/polyfills.8afb963e39db8bec.js",
+        "/runtime.170c2ce98802624a.js",
+        "/styles.db0187f42dd33bf7.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/docs/Serey_Vatanak_KOEURN_CV.pdf",
+        "/assets/icons/favicon.png",
+        "/assets/icons/favicon.webp",
+        "/assets/icons/v_logo.jpg",
+        "/assets/images/png/bainmarie.png",
+        "/assets/images/png/bigbite.png",
+        "/assets/images/png/bongthom.png",
+        "/assets/images/png/doodfr.png",
+        "/assets/images/png/doodhk.png",
+        "/assets/images/png/erlicht.png",
+        "/assets/images/png/fackelmann.png",
+        "/assets/images/png/fixhme.png",
+        "/assets/images/png/ibook.png",
+        "/assets/images/png/kit.png",
+        "/assets/images/png/mkwong.png",
+        "/assets/images/png/portfolio.png",
+        "/assets/images/png/profile.png",
+        "/assets/images/png/wetype.png",
+        "/assets/images/portfolio/bainmarie.webp",
+        "/assets/images/portfolio/bigbite.webp",
+        "/assets/images/portfolio/bongthom.webp",
+        "/assets/images/portfolio/doodfr.webp",
+        "/assets/images/portfolio/doodhk.webp",
+        "/assets/images/portfolio/erlicht.webp",
+        "/assets/images/portfolio/fackelmann.webp",
+        "/assets/images/portfolio/fixhme.webp",
+        "/assets/images/portfolio/ibook.webp",
+        "/assets/images/portfolio/kit.webp",
+        "/assets/images/portfolio/mkwong.webp",
+        "/assets/images/portfolio/portfolio.webp",
+        "/assets/images/portfolio/wetype.webp",
+        "/assets/images/profile.webp"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/docs/Serey_Vatanak_KOEURN_CV.pdf": "95bd6e75f69e98a3f4d6ea9dccafb03c4ce33327",
+    "/assets/icons/favicon.png": "09edf17c59b0a554603a92a75dceb471970b9c92",
+    "/assets/icons/favicon.webp": "a2c6ad8e91b63863d0309790aceede346c6d3b3d",
+    "/assets/icons/v_logo.jpg": "902ea2c3f3670bf9a203ebca37dbc1f95f705fe1",
+    "/assets/images/png/bainmarie.png": "3446a94af919315520a9b660e7339629babba90b",
+    "/assets/images/png/bigbite.png": "1c46de1d0e6ed75c4656788b8039383db639372c",
+    "/assets/images/png/bongthom.png": "a6eeea8d8d2860b9de512f184d05c42a323f38bf",
+    "/assets/images/png/doodfr.png": "10002d94e877d54621ca2aeed5b7cbd220fb3e32",
+    "/assets/images/png/doodhk.png": "a766c6967337feebe97929c1819b0c79a29046a7",
+    "/assets/images/png/erlicht.png": "869d395d39e02eac021692a83068bd30fd0e815b",
+    "/assets/images/png/fackelmann.png": "aef0385c58e267644dee49dafb26e8628b75561b",
+    "/assets/images/png/fixhme.png": "489c6cd5863ffc8db9cf05337268b835ea1bdcbf",
+    "/assets/images/png/ibook.png": "39b4ddf15c5407c71e9d1c9c0ba6bde39e5c22d6",
+    "/assets/images/png/kit.png": "8d572cba9d501327f3defc9da0bdb9351c7912ec",
+    "/assets/images/png/mkwong.png": "ca92c07aa20ad3a1309dddafd16782997c4cbe15",
+    "/assets/images/png/portfolio.png": "8cd924a2d1a9297d500f1316e67ff2c120565d8a",
+    "/assets/images/png/profile.png": "9dc74f20ae7fa36c3345788a2967e7ae54ea4d28",
+    "/assets/images/png/wetype.png": "a6b9dc2f0c1ed2277603c52010d71485ec220ec8",
+    "/assets/images/portfolio/bainmarie.webp": "d894f7f270f9addab7b0fb5f1ba5fec67aacc11a",
+    "/assets/images/portfolio/bigbite.webp": "633e95f12bf634f7da791efedc0248c40deebb73",
+    "/assets/images/portfolio/bongthom.webp": "cdab175a2ca5592fe730e7dd7e468f88b7ee0c05",
+    "/assets/images/portfolio/doodfr.webp": "01f58c566c87ab3ec735135043bae5511fb6b093",
+    "/assets/images/portfolio/doodhk.webp": "42f23c7d353a8da5f9d038a3a7d97ad7e5b9f3cf",
+    "/assets/images/portfolio/erlicht.webp": "634d69dd6e249b5647745ab080b93baa4a74722d",
+    "/assets/images/portfolio/fackelmann.webp": "90e5bf63b9a6ad2f7d9ea03dc60468cc3ff67c86",
+    "/assets/images/portfolio/fixhme.webp": "e11b4634e888d59f3772a513f60e4b8d8cd69083",
+    "/assets/images/portfolio/ibook.webp": "834e615853613a3a082a31019cf58d28efb356f0",
+    "/assets/images/portfolio/kit.webp": "e11c5710018e0a119480369cf7ef723fbecca9ae",
+    "/assets/images/portfolio/mkwong.webp": "3b4f9d4863b99e17ccafeafafb6a5cb1e3ec38c7",
+    "/assets/images/portfolio/portfolio.webp": "312137001e2ddfcd1a857f417e81bd2dec71a201",
+    "/assets/images/portfolio/wetype.webp": "598f2acbd4dd95eddc868d85906bbe08ec2f1fc8",
+    "/assets/images/profile.webp": "2bdfef1e9c661353456833f01b0011deefc8b96a",
+    "/index.html": "56db40e290d72992aa119e6db817dc0f7d8e99c5",
+    "/main.895ef67bb73d042d.js": "c6441bfb9c03d0a41293a7b268d1002a281c86a6",
+    "/manifest.webmanifest": "51f65c1a1e33971620ff6f828f78e2ba2da3759d",
+    "/polyfills.8afb963e39db8bec.js": "73ea496e2269b4bca24032d790a5871dcf3da6e3",
+    "/runtime.170c2ce98802624a.js": "3b6dbbca7c1878336d09f6ded707478d2b61c422",
+    "/styles.db0187f42dd33bf7.css": "2ef8941bfb1b49bcfc5f052ff582206c783e2443"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
