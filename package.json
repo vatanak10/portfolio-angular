@@ -5,7 +5,8 @@
     "ng": "ng",
     "dev": "ng serve",
     "start": "ng serve",
-    "build": "ng build",
+    "start-pwa": "ng build && http-server -p 8080 -c-1 docs",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "deploy": "ng deploy --cname=vatanak.tech"
