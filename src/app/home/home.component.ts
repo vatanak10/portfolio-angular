@@ -76,6 +76,7 @@ export class HomeComponent implements OnInit {
     section?.classList.add('active');
 
     // reset scroll progress bar on switching section
+    document.getElementById('scroll-progress-bar')!.style.width = '0%';
     this.progressBarScroll();
   }
 }
