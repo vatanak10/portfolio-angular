@@ -37,6 +37,18 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     const section = document.getElementById('home');
     section?.classList.add('active');
+    window.addEventListener('scroll', this.progressBarScroll);
+  }
+
+  progressBarScroll() {
+    let winScroll =
+        document.body.scrollTop || document.documentElement.scrollTop,
+      height =
+        document.documentElement.scrollHeight -
+        document.documentElement.clientHeight,
+      scrolled = (winScroll / height) * 100;
+    document.getElementById('scroll-progress-bar')!.style.width =
+      scrolled + '%';
   }
 
   toggleTheme() {
@@ -62,5 +74,8 @@ export class HomeComponent implements OnInit {
     // add active class to the clicked section
     const section = document.getElementById(e.target.dataset.id);
     section?.classList.add('active');
+
+    // reset scroll progress bar on switching section
+    this.progressBarScroll();
   }
 }

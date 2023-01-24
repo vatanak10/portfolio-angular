@@ -12,7 +12,17 @@ export class AboutComponent implements OnInit {
 
   timeline = [
     {
-      date: 'June 2022 - Present',
+      date: 'January 2023 - Present',
+      position: 'Frontend Developer',
+      company: 'Kirirom Digital Cambodia',
+      duties: [
+        'Designed and updated layouts to meet usability and performance requirements.',
+        'Transformed native applications into mobile-friendly products.',
+        'Implemented Payment Gateway Integration',
+      ],
+    },
+    {
+      date: 'June 2022 - January 2023',
       position: 'Web Application Developer',
       company: 'Bongthom.com',
       duties: [

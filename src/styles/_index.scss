@@ -64,6 +64,17 @@ header {
   overflow: hidden;
 }
 
+#scroll-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 8px;
+  background: linear-gradient(to right, var(--color-secondary), #f12b3d);
+  width: 0%;
+  z-index: 100;
+  transition: width 0.2s ease-out;
+}
+
 section {
   min-height: 100vh;
   width: 100%;
