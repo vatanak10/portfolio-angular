@@ -24,6 +24,18 @@ export class PortfolioComponent implements OnInit {
       ],
     },
     {
+      title: 'BoxShipper',
+      imgLink: '../../../assets/images/portfolio/boxshipper.webp',
+      altImg: 'BoxShipper Homepage',
+      icons: [
+        {
+          icon: 'fa fa-link',
+          link: 'https://boxshipper.khmum.com/',
+          tooltip: 'Visit Website',
+        },
+      ],
+    },
+    {
       title: 'bongthom.com',
       imgLink: '../../../assets/images/portfolio/bongthom.webp',
       altImg: 'bongthom.com homepage',
