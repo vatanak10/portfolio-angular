@@ -44,6 +44,11 @@ export class ContactsComponent implements OnInit {
   ];
 
   socialIcons = [
+    // {
+    //   title: 'Telegram',
+    //   icon: 'fab fa-telegram-plane',
+    //   link: 'https://t.me/vatanak100',
+    // },
     {
       title: 'LinkedIn',
       icon: 'fab fa-linkedin-in',
@@ -59,6 +64,11 @@ export class ContactsComponent implements OnInit {
       icon: 'fab fa-gitlab',
       link: 'https://gitlab.com/vatanak10',
     },
+    // {
+    //   title: 'Discord',
+    //   icon: 'fab fa-discord',
+    //   link: 'https://discord.com/users/588584785224400928',
+    // },
     {
       title: 'Twitter',
       icon: 'fab fa-twitter',
