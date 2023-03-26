@@ -44,11 +44,6 @@ export class ContactsComponent implements OnInit {
   ];
 
   socialIcons = [
-    // {
-    //   title: 'Telegram',
-    //   icon: 'fab fa-telegram-plane',
-    //   link: 'https://t.me/vatanak100',
-    // },
     {
       title: 'LinkedIn',
       icon: 'fab fa-linkedin-in',
@@ -70,14 +65,24 @@ export class ContactsComponent implements OnInit {
     //   link: 'https://discord.com/users/588584785224400928',
     // },
     {
-      title: 'Twitter',
-      icon: 'fab fa-twitter',
-      link: 'https://twitter.com/vatanak100',
+      title: 'Skype',
+      icon: 'fab fa-skype',
+      link: 'https://join.skype.com/invite/xcYEQ8gvS1Oz',
     },
+    // {
+    //   title: 'Twitter',
+    //   icon: 'fab fa-twitter',
+    //   link: 'https://twitter.com/vatanak100',
+    // },
+    // {
+    //   title: 'Facebook',
+    //   icon: 'fab fa-facebook-f',
+    //   link: 'https://www.facebook.com/vatanak100/',
+    // },
     {
-      title: 'Facebook',
-      icon: 'fab fa-facebook-f',
-      link: 'https://www.facebook.com/vatanak100/',
+      title: 'Telegram',
+      icon: 'fab fa-telegram-plane',
+      link: 'https://t.me/vatanak100',
     },
   ];
 }
