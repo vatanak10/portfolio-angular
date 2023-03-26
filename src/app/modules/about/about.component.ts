@@ -10,6 +10,123 @@ export class AboutComponent implements OnInit {
 
   ngOnInit(): void {}
 
+  skills = [
+    {
+      title: 'JavaScript',
+      icon: 'js.png',
+    },
+    {
+      title: 'TypeScript',
+      icon: 'ts.png',
+    },
+    {
+      title: 'Next JS',
+      icon: 'next.png',
+    },
+    {
+      title: 'Nuxt JS',
+      icon: 'nuxt.png',
+    },
+    {
+      title: 'React JS',
+      icon: 'react.png',
+    },
+    {
+      title: 'Vue JS',
+      icon: 'vue.png',
+    },
+    {
+      title: 'Angular',
+      icon: 'angular.svg',
+    },
+    {
+      title: 'Laravel',
+      icon: 'laravel.png',
+    },
+    {
+      title: 'Vuetify',
+      icon: 'vuetify.png',
+    },
+    {
+      title: 'Tailwind CSS',
+      icon: 'tailwind.png',
+    },
+    {
+      title: 'TWind CSS',
+      icon: 'twind.png',
+    },
+    {
+      title: 'Bootstrap',
+      icon: 'bootstrap.png',
+    },
+  ];
+
+  // skillGroups = [
+  //   {
+  //     group: 'Programming Languages',
+  //     items: [
+  //       {
+  //         title: 'JavaScript',
+  //         icon: 'js.png',
+  //       },
+  //       {
+  //         title: 'TypeScript',
+  //         icon: 'ts.png',
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     group: 'Frontend Frameworks',
+  //     items: [
+  //       {
+  //         title: 'Next JS',
+  //         icon: 'next.png',
+  //       },
+  //       {
+  //         title: 'Nuxt JS',
+  //         icon: 'nuxt.png',
+  //       },
+  //       {
+  //         title: 'React JS',
+  //         icon: 'react.png',
+  //       },
+  //       {
+  //         title: 'Vue JS',
+  //         icon: 'vue.png',
+  //       },
+  //       {
+  //         title: 'Angular',
+  //         icon: 'angular.svg',
+  //       },
+  //       {
+  //         title: 'Vuetify',
+  //         icon: 'vuetify.png',
+  //       },
+  //       {
+  //         title: 'Laravel',
+  //         icon: 'laravel.png',
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     group: 'CSS Frameworks',
+  //     items: [
+  //       {
+  //         title: 'Tailwind CSS',
+  //         icon: 'tailwind.png',
+  //       },
+  //       {
+  //         title: 'TWind CSS',
+  //         icon: 'twind.png',
+  //       },
+  //       {
+  //         title: 'Bootstrap',
+  //         icon: 'bootstrap.png',
+  //       },
+  //     ],
+  //   },
+  // ];
+
   timeline = [
     {
       date: 'January 2023 - Present',

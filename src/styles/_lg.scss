@@ -9,6 +9,11 @@
   .about-overview {
     padding: 2rem 1rem;
   }
+
+  // Skills
+  .tech-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
   
   // Work Experience
   .work_experience{

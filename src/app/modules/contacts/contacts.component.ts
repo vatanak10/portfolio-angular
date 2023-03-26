@@ -45,30 +45,20 @@ export class ContactsComponent implements OnInit {
 
   socialIcons = [
     {
+      title: 'Telegram',
+      icon: 'fab fa-telegram-plane',
+      link: 'https://t.me/vatanak100',
+    },
+    {
       title: 'LinkedIn',
       icon: 'fab fa-linkedin-in',
       link: 'https://www.linkedin.com/in/vatanak10/',
-    },
-    {
-      title: 'GitHub',
-      icon: 'fab fa-github',
-      link: 'https://github.com/vatanak10',
-    },
-    {
-      title: 'GitLab',
-      icon: 'fab fa-gitlab',
-      link: 'https://gitlab.com/vatanak10',
     },
     // {
     //   title: 'Discord',
     //   icon: 'fab fa-discord',
     //   link: 'https://discord.com/users/588584785224400928',
     // },
-    {
-      title: 'Skype',
-      icon: 'fab fa-skype',
-      link: 'https://join.skype.com/invite/xcYEQ8gvS1Oz',
-    },
     // {
     //   title: 'Twitter',
     //   icon: 'fab fa-twitter',
@@ -80,9 +70,19 @@ export class ContactsComponent implements OnInit {
     //   link: 'https://www.facebook.com/vatanak100/',
     // },
     {
-      title: 'Telegram',
-      icon: 'fab fa-telegram-plane',
-      link: 'https://t.me/vatanak100',
+      title: 'Skype',
+      icon: 'fab fa-skype',
+      link: 'https://join.skype.com/invite/xcYEQ8gvS1Oz',
+    },
+    {
+      title: 'GitHub',
+      icon: 'fab fa-github',
+      link: 'https://github.com/vatanak10',
+    },
+    {
+      title: 'GitLab',
+      icon: 'fab fa-gitlab',
+      link: 'https://gitlab.com/vatanak10',
     },
   ];
 }
