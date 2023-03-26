@@ -164,6 +164,54 @@
   }
 }
 
+// Technologies
+.group-container {}
+
+.group-title {
+  grid-column: span 4 / span 4;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: var(--color-grey-1);
+}
+
+.tech-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  margin: 1rem 0;
+
+  
+
+  .tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: var(--color-grey-5);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    .tech-icon {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      height: 5rem;
+      // width: 5rem;
+    }
+
+    .tech-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+  }
+}
+
 // Work Experience
 .work_experience {
   .work_container {

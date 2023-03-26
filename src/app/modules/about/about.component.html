@@ -100,7 +100,34 @@
   <!-- Skills Stats -->
   <div class="about-stats">
     <h4 class="stat-title">My Skills</h4>
-    <div class="progress-bars">
+    <p>Some of various tools that I have used so far.</p>
+    <div class="tech-container">
+      <div class="tech-item" *ngFor="let item of skills">
+        <img
+          class="tech-icon"
+          src="assets/icons/logos/{{ item.icon }}"
+          alt="{{ item.title }}"
+        />
+        <p class="tech-title">{{ item.title }}</p>
+      </div>
+    </div>
+
+    <!-- Groups Format -->
+    <!-- <div class="group-container" *ngFor="let group of skillGroups">
+      <h3 class="group-title">{{ group.group }}</h3>
+      <div class="tech-container">
+        <div class="tech-item" *ngFor="let item of group.items">
+          <img
+            class="tech-icon"
+            src="assets/icons/logos/{{ item.icon }}"
+            alt="{{ item.title }}"
+          />
+          <p class="tech-title">{{ item.title }}</p>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="progress-bars">
       <div class="progress-bar">
         <p class="progress-title">HTML, CSS, JavaScript</p>
         <div class="progress-container">
@@ -155,7 +182,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 
   <!-- Work Experience -->
