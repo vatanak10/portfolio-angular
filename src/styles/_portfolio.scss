@@ -80,13 +80,13 @@
     }
 
     &:hover {
-      transform: scale(1.05);
-      transition: all 0.15s ease-in-out;
+      transform: scale(1.02);
+      transition: var(--transition);
 
       .hover-item {
         opacity: 1;
         transform: scale(1.02);
-        transition: all 0.2s ease-in-out;
+        transition: var(--transition);
       }
     }
   }
