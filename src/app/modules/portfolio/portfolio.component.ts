@@ -12,6 +12,18 @@ export class PortfolioComponent implements OnInit {
 
   projects = [
     {
+      title: 'Kirirom Digital',
+      imgLink: '../../../assets/images/png/kdj.png',
+      altImg: 'Kirirom Digital homepage',
+      icons: [
+        {
+          icon: 'fa fa-link',
+          link: 'https://www.kirirom-digital.com/',
+          tooltip: 'Visit Website',
+        },
+      ],
+    },
+    {
       title: 'wetype.store',
       imgLink: '../../../assets/images/portfolio/wetype.webp',
       altImg: 'wetype.store banner',
