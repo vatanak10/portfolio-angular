@@ -61,75 +61,20 @@ export class AboutComponent implements OnInit {
     },
   ];
 
-  // skillGroups = [
-  //   {
-  //     group: 'Programming Languages',
-  //     items: [
-  //       {
-  //         title: 'JavaScript',
-  //         icon: 'js.png',
-  //       },
-  //       {
-  //         title: 'TypeScript',
-  //         icon: 'ts.png',
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     group: 'Frontend Frameworks',
-  //     items: [
-  //       {
-  //         title: 'Next JS',
-  //         icon: 'next.png',
-  //       },
-  //       {
-  //         title: 'Nuxt JS',
-  //         icon: 'nuxt.png',
-  //       },
-  //       {
-  //         title: 'React JS',
-  //         icon: 'react.png',
-  //       },
-  //       {
-  //         title: 'Vue JS',
-  //         icon: 'vue.png',
-  //       },
-  //       {
-  //         title: 'Angular',
-  //         icon: 'angular.svg',
-  //       },
-  //       {
-  //         title: 'Vuetify',
-  //         icon: 'vuetify.png',
-  //       },
-  //       {
-  //         title: 'Laravel',
-  //         icon: 'laravel.png',
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     group: 'CSS Frameworks',
-  //     items: [
-  //       {
-  //         title: 'Tailwind CSS',
-  //         icon: 'tailwind.png',
-  //       },
-  //       {
-  //         title: 'TWind CSS',
-  //         icon: 'twind.png',
-  //       },
-  //       {
-  //         title: 'Bootstrap',
-  //         icon: 'bootstrap.png',
-  //       },
-  //     ],
-  //   },
-  // ];
-
   timeline = [
     {
-      date: 'January 2023 - Present',
+      date: 'June 2023 - Present',
+      position: 'Frontend Developer',
+      company: 'Youding',
+      duties: [
+        'Write reusable, effective, and scalable TypeScript code.',
+        'Implement front-end components with a progressive Vue.js framework.',
+        "Translate the client's technical specifications into code.",
+        'Write automated test cases to verify the functionalities.',
+      ],
+    },
+    {
+      date: 'January 2023 - June 2023',
       position: 'Frontend Developer',
       company: 'Kirirom Digital Cambodia',
       duties: [
