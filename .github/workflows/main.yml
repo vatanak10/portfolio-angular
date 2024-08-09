@@ -28,7 +28,7 @@ jobs:
         run: npm run build --prod
 
       - name: Zip the Build Folder
-        run: zip -r build.zip dist/
+        run: zip -r build.zip docs/
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
