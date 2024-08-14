@@ -1,10 +1,8 @@
 name: Build and Push Docker Image to Docker Hub
 
 on:
-  push:
-    branches:
-      - master
   pull_request:
+    types: [closed]
     branches:
       - master
 
@@ -22,8 +20,12 @@ jobs:
           username: ${{ secrets.DOCKER_USER }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
+      - name: Get the Release Version
+        id: tag
+        run: echo ::set-output name=tag::${GITHUB_REF#refs/tags/}
+
       - name: Build and Push
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ env.DOCKER_IMAGE_REPO_NAME }}:${{ github.run_number }}
+          tags: ${{ env.DOCKER_IMAGE_REPO_NAME }}:${{ steps.tag.outputs.tag }}
