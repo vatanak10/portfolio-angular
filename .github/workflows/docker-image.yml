@@ -21,7 +21,6 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Get the Release Version
-
         run: |
           echo "Branch ref: ${{ github.event.pull_request.head.ref }}"
           tag=$(echo ${{ github.event.pull_request.head.ref }} | cut -d '/' -f 2)
