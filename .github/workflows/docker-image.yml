@@ -1,8 +1,10 @@
 name: Build and Push Docker Image to Docker Hub
 
 on:
+  push:
+    branches:
+      - master
   pull_request:
-    types: [closed]
     branches:
       - master
 
@@ -20,15 +22,15 @@ jobs:
           username: ${{ secrets.DOCKER_USER }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Get the Release Version
-        run: |
-          echo "Branch ref: ${{ github.event.pull_request.head.ref }}"
-          tag=$(echo ${{ github.event.pull_request.head.ref }} | cut -d '/' -f 2)
-          echo "Extracted tag: $tag"
-          echo "tag=$tag" >> $GITHUB_ENV
+      # - name: Get the Release Version
+      #   run: |
+      #     echo "Branch ref: ${{ github.event.pull_request.head.ref }}"
+      #     tag=$(echo ${{ github.event.pull_request.head.ref }} | cut -d '/' -f 2)
+      #     echo "Extracted tag: $tag"
+      #     echo "tag=$tag" >> $GITHUB_ENV
 
       - name: Build and Push
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ env.DOCKER_IMAGE_REPO_NAME }}:${{ env.tag }}
+          tags: ${{ vars.DOCKER_IMAGE_REPO_NAME }}:${{ github.run_number }}
