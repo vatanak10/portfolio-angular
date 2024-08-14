@@ -21,12 +21,15 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Get the Release Version
-        id: tag
-        # get the tag from the release branch that just merged to master Eg. bracnh: release/1.0.0 -> tag: 1.0.0
-        run: echo "tag=$(echo ${{ github.event.pull_request.head.ref }} | cut -d '/' -f 2)" >> $GITHUB_ENV
+
+        run: |
+          echo "Branch ref: ${{ github.event.pull_request.head.ref }}"
+          tag=$(echo ${{ github.event.pull_request.head.ref }} | cut -d '/' -f 2)
+          echo "Extracted tag: $tag"
+          echo "tag=$tag" >> $GITHUB_ENV
 
       - name: Build and Push
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ env.DOCKER_IMAGE_REPO_NAME }}:${{ steps.tag.outputs.tag }}
+          tags: ${{ env.DOCKER_IMAGE_REPO_NAME }}:${{ env.tag }}
