@@ -13,51 +13,51 @@ export class AboutComponent implements OnInit {
   skills = [
     {
       title: 'JavaScript',
-      icon: 'js.png',
+      icon: 'assets/icons/logos/js.png',
     },
     {
       title: 'TypeScript',
-      icon: 'ts.png',
+      icon: 'assets/icons/logos/ts.png',
     },
     {
       title: 'Next JS',
-      icon: 'next.png',
+      icon: 'assets/icons/logos/next.png',
     },
     {
       title: 'Nuxt JS',
-      icon: 'nuxt.png',
+      icon: 'https://static-00.iconduck.com/assets.00/nuxtjs-icon-2048x1372-xn6c49j2.png',
     },
     {
       title: 'React JS',
-      icon: 'react.png',
+      icon: 'assets/icons/logos/react.png',
     },
     {
       title: 'Vue JS',
-      icon: 'vue.png',
+      icon: 'assets/icons/logos/vue.png',
     },
     {
       title: 'Angular',
-      icon: 'angular.svg',
+      icon: 'assets/icons/logos/angular.svg',
     },
     {
       title: 'Laravel',
-      icon: 'laravel.png',
+      icon: 'assets/icons/logos/laravel.png',
     },
     {
       title: 'Vuetify',
-      icon: 'vuetify.png',
+      icon: 'assets/icons/logos/vuetify.png',
     },
     {
       title: 'Tailwind CSS',
-      icon: 'tailwind.png',
+      icon: 'assets/icons/logos/tailwind.png',
     },
     {
       title: 'TWind CSS',
-      icon: 'twind.png',
+      icon: 'assets/icons/logos/twind.png',
     },
     {
       title: 'Bootstrap',
-      icon: 'bootstrap.png',
+      icon: 'assets/icons/logos/bootstrap.png',
     },
   ];
 
