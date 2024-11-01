@@ -12,6 +12,18 @@ export class PortfolioComponent implements OnInit {
 
   projects = [
     {
+      title: 'Association of Organization Management',
+      imgLink: '../../../assets/images/png/moi.png',
+      altImg: 'Association of Organization Management',
+      icons: [
+        {
+          icon: 'fa fa-link',
+          link: 'https://moi.vatanak.com/',
+          tooltip: 'Visit Website',
+        },
+      ],
+    },
+    {
       title: 'Kirirom Digital',
       imgLink: '../../../assets/images/png/kdj.png',
       altImg: 'Kirirom Digital homepage',
