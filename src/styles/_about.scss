@@ -77,18 +77,21 @@
 .about-overview {
   padding: 2rem 3.5rem;
 
+  .highlight {
+    color: var(--color-secondary);
+  }
+
   div {
     display: flex;
     justify-content: center;
   }
-  
+
   p {
     text-align: justify;
     line-height: 2rem;
     padding: 1rem 0;
     color: var(--color-grey-1);
   }
-
 }
 
 .about-stats {
@@ -165,7 +168,8 @@
 }
 
 // Technologies
-.group-container {}
+.group-container {
+}
 
 .group-title {
   grid-column: span 4 / span 4;
@@ -180,8 +184,6 @@
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
   margin: 1rem 0;
-
-  
 
   .tech-item {
     display: flex;
@@ -303,7 +305,6 @@
           margin-right: 0;
           margin-left: -2rem;
         }
-
       }
     }
   }
