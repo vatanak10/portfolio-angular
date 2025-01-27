@@ -12,6 +12,18 @@ export class PortfolioComponent implements OnInit {
 
   projects = [
     {
+      title: 'CICCA Donation Website',
+      imgLink: '../../../assets/images/png/cicca-donation.png',
+      altImg: 'CICCA Donation Website',
+      icons: [
+        {
+          icon: 'fa fa-link',
+          link: 'https://cicca.vatanak.com/',
+          tooltip: 'Visit Website',
+        },
+      ],
+    },
+    {
       title: 'Association of Organization Management',
       imgLink: '../../../assets/images/png/moi.png',
       altImg: 'Association of Organization Management',
@@ -40,11 +52,11 @@ export class PortfolioComponent implements OnInit {
       imgLink: '../../../assets/images/portfolio/wetype.webp',
       altImg: 'wetype.store banner',
       icons: [
-        {
-          icon: 'fa fa-link',
-          link: 'https://wetype.apps.hunvikran.com',
-          tooltip: 'Visit Website',
-        },
+        // {
+        //   icon: 'fa fa-link',
+        //   link: 'https://wetype.apps.hunvikran.com',
+        //   tooltip: 'Visit Website',
+        // },
       ],
     },
     {
@@ -81,11 +93,11 @@ export class PortfolioComponent implements OnInit {
           link: 'https://play.google.com/store/apps/details?id=com.bookmanagement.ibook',
           tooltip: 'Play Store',
         },
-        {
-          icon: 'fab fa-github',
-          link: 'https://github.com/incubation-center/Flutter-app---Group8',
-          tooltip: 'GitHub',
-        },
+        // {
+        //   icon: 'fab fa-github',
+        //   link: 'https://github.com/incubation-center/Flutter-app---Group8',
+        //   tooltip: 'GitHub',
+        // },
       ],
     },
     {
@@ -93,11 +105,11 @@ export class PortfolioComponent implements OnInit {
       imgLink: '../../../assets/images/portfolio/fixhme.webp',
       altImg: 'fixh.me homepage preview',
       icons: [
-        {
-          icon: 'fa fa-link',
-          link: 'https://fixh.me/',
-          tooltip: 'Visit Website',
-        },
+        // {
+        //   icon: 'fa fa-link',
+        //   link: 'https://fixh.me/',
+        //   tooltip: 'Visit Website',
+        // },
       ],
     },
     {
@@ -165,16 +177,16 @@ export class PortfolioComponent implements OnInit {
       imgLink: '../../../assets/images/portfolio/kit.webp',
       altImg: 'KIT Landing Page preview',
       icons: [
-        {
-          icon: 'fa fa-link',
-          link: 'https://neuporng.github.io/PrototypeLandingPage/',
-          tooltip: 'Preview',
-        },
-        {
-          icon: 'fab fa-github',
-          link: 'https://github.com/NeupOrng/PrototypeLandingPage',
-          tooltip: 'GitHub',
-        },
+        // {
+        //   icon: 'fa fa-link',
+        //   link: 'https://neuporng.github.io/PrototypeLandingPage/',
+        //   tooltip: 'Preview',
+        // },
+        // {
+        //   icon: 'fab fa-github',
+        //   link: 'https://github.com/NeupOrng/PrototypeLandingPage',
+        //   tooltip: 'GitHub',
+        // },
       ],
     },
     {
@@ -206,16 +218,16 @@ export class PortfolioComponent implements OnInit {
       imgLink: '../../../assets/images/portfolio/portfolio.webp',
       altImg: 'Vatanak Portfolio Page',
       icons: [
-        {
-          icon: 'fa fa-link',
-          link: 'https://vatanak10.github.io/portfolio',
-          tooltip: 'Preview Page',
-        },
-        {
-          icon: 'fab fa-github',
-          link: 'https://github.com/vatanak10/portfolio',
-          tooltip: 'GitHub',
-        },
+        // {
+        //   icon: 'fa fa-link',
+        //   link: 'https://vatanak10.github.io/portfolio',
+        //   tooltip: 'Preview Page',
+        // },
+        // {
+        //   icon: 'fab fa-github',
+        //   link: 'https://github.com/vatanak10/portfolio',
+        //   tooltip: 'GitHub',
+        // },
       ],
     },
   ];
