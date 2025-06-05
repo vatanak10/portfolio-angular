@@ -3,7 +3,7 @@
   <div class="main-title">
     <h2>
       My <span>Portfolio</span>
-      <span class="bg-text">My Work</span>
+      <span class="bg-text">Projects</span>
     </h2>
   </div>
 
@@ -21,7 +21,7 @@
         <h3>{{ item.title }}</h3>
         <div class="icons">
           <a
-            *ngFor="let icon of item.icons"
+            *ngFor="let icon of item.actions"
             class="icon"
             [href]="icon.link"
             target="_blank"
