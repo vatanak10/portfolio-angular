@@ -107,7 +107,12 @@
     <p>Some of various tools that I have used so far.</p>
     <div class="tech-container">
       <div class="tech-item" *ngFor="let item of skills">
-        <img class="tech-icon" src="{{ item.icon }}" alt="{{ item.title }}" />
+        <img
+          class="tech-icon"
+          src="{{ item.icon }}"
+          alt="{{ item.title }}"
+          loading="lazy"
+        />
         <p class="tech-title">{{ item.title }}</p>
       </div>
     </div>

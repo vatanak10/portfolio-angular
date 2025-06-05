@@ -15,7 +15,7 @@
   <div class="portfolios">
     <div class="portfolio-item" *ngFor="let item of projects">
       <div class="image">
-        <img [src]="item.imgLink" [alt]="item.altImg" />
+        <img [src]="item.imgLink" [alt]="item.altImg" loading="lazy" />
       </div>
       <div class="hover-item">
         <h3>{{ item.title }}</h3>

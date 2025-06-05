@@ -29,7 +29,7 @@ export class PortfolioComponent implements OnInit {
   projects = [
     {
       title: 'CICCA Donation Website',
-      imgLink: '../../../assets/images/png/cicca-donation.png',
+      imgLink: '../../../assets/images/portfolio/cicca-donation.webp',
       altImg: 'CICCA Donation Website',
       actions: [
         {
@@ -41,7 +41,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       title: 'Association of Organization Management',
-      imgLink: '../../../assets/images/png/moi.png',
+      imgLink: '../../../assets/images/portfolio/moi.webp',
       altImg: 'Association of Organization Management',
       actions: [
         {
@@ -53,7 +53,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       title: 'Kirirom Digital',
-      imgLink: '../../../assets/images/png/kdj.png',
+      imgLink: '../../../assets/images/portfolio/kdj.webp',
       altImg: 'Kirirom Digital homepage',
       actions: [
         {
