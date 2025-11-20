@@ -25,7 +25,7 @@ export class AboutComponent implements OnInit {
     },
     {
       title: 'Nuxt JS',
-      icon: 'https://static-00.iconduck.com/assets.00/nuxtjs-icon-2048x1372-xn6c49j2.png',
+      icon: 'assets/icons/logos/nuxt.png',
     },
     {
       title: 'React JS',
@@ -63,7 +63,18 @@ export class AboutComponent implements OnInit {
 
   timeline = [
     {
-      date: 'June 2023 - Present',
+      date: 'Jan 2025 - Present',
+      position: 'Senior Frontend Developer',
+      company: 'AIBODIA',
+      duties: [
+        'Develop and maintain user-facing features using latest frontend technologies.',
+        'Optimize applications for maximum speed and scalability.',
+        'Implement responsive design principles.',
+        'Collaborate with other team members and stakeholders.',
+      ],
+    },
+    {
+      date: 'June 2023 - May 2025',
       position: 'Frontend Developer',
       company: 'Youding',
       duties: [
