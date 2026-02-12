@@ -197,7 +197,14 @@
       <div class="work_item" *ngFor="let work of timeline">
         <div class="work_center">
           <div class="work_icon">
-            <i class="fas fa-briefcase"></i>
+            <img
+              *ngIf="work.logo; else elseBlock"
+              src="{{ work.logo }}"
+              alt="{{ work.company }}"
+            />
+            <ng-template #elseBlock>
+              <i class="fas fa-briefcase"></i>
+            </ng-template>
           </div>
           <div class="work_border"></div>
         </div>
