@@ -20,4 +20,8 @@ describe('AboutComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should format ISO dates as month and year', () => {
+    expect(component.formatDate('2020-05-01')).toBe('May 2020');
+  });
 });

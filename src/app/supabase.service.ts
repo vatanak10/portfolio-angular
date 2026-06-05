@@ -21,4 +21,11 @@ export class SupabaseService {
       .select()
       .order('created_at', { ascending: false });
   }
+
+  fetchExperiences() {
+    return this.supabase
+      .from('experiences')
+      .select()
+      .order('end_date', { ascending: false });
+  }
 }
