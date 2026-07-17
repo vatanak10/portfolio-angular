@@ -3,13 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "dev": "ng serve",
-    "start": "ng serve",
+    "dev": "node -r dotenv/config env.js && ng serve",
+    "start": "node -r dotenv/config env.js && ng serve",
     "start-pwa": "ng build && http-server -p 8080 -c-1 docs",
-    "build": "ng build --configuration production",
+    "build": "node -r dotenv/config env.js && ng build --configuration production",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "deploy": "ng deploy --cname=vatanak.tech"
+    "test": "ng test"
   },
   "private": true,
   "homepage": "https://vatanak.tech",
@@ -27,6 +26,7 @@
     "@supabase/supabase-js": "^2.49.10",
     "@vercel/analytics": "^1.0.0",
     "angular-cli-ghpages": "^1.0.3",
+    "dotenv": "^17.4.2",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
