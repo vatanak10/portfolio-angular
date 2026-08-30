@@ -10,6 +10,7 @@ import { AboutComponent } from './modules/about/about.component';
 import { HomeComponent } from './home/home.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from 'src/environments/environment';
+import { CvComponent } from './modules/cv/cv.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { environment } from 'src/environments/environment';
     ContactsComponent,
     AboutComponent,
     HomeComponent,
+    CvComponent,
   ],
   imports: [
     BrowserModule,
