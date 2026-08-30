@@ -32,11 +32,11 @@ export class HomeComponent implements OnInit {
       name: 'Contact Me',
       icon: 'fas fa-envelope',
     },
-    {
-      id: 'cv',
-      name: 'My CV',
-      icon: 'fas fa-file-alt',
-    },
+    // {
+    //   id: 'cv',
+    //   name: 'My CV',
+    //   icon: 'fas fa-file-alt',
+    // },
   ];
 
   ngOnInit(): void {
